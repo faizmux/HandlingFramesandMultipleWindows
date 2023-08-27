@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Book My Show Suite" thread-count="2" parallel="tests" >
+
+
+    <!--            <test name="Package Test">-->
+    <!--                <packages>-->
+    <!--                    <package name="MyTests"></package>-->
+    <!--                </packages>-->
+    <!--            </test>-->
+
+
+    <test name="Image Urls Test">
+        <classes>
+            <class name="MyTests.NestedFrames" />
+            <class name="MyTests.WindowHandle" />
+        </classes>
+    </test>
+
+    <!--            <test name="LinkedinImagePost Test">-->
+    <!--                <classes>-->
+    <!--                    <class name="MyTests.LinkedInImagePost" />-->
+    <!--                </classes>-->
+    <!--            </test>-->
+
+
+
+    <!--        <test name="OpenCart Test">-->
+    <!--            <parameter name="browser" value="firefox" />-->
+    <!--            <parameter name="headless" value="true" />-->
+    <!--    -->
+    <!--            <parameter name="url"-->
+    <!--                value="https://naveenautomationlabs.com/opencart/index.php?route=account/login" />-->
+    <!--    -->
+    <!--            <classes>-->
+    <!--                <class name="mytests.OpenCartTest" />-->
+    <!--            </classes>-->
+    <!--        </test>-->
+</suite>

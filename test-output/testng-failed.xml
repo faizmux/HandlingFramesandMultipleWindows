@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Book My Show Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="Image Urls Test(failed)" verbose="0">
+    <classes>
+      <class name="MyTests.WindowHandle">
+        <methods>
+          <include name="tearDown"/>
+          <include name="windowHandle"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- MyTests.WindowHandle -->
+    </classes>
+  </test> <!-- Image Urls Test(failed) -->
+</suite> <!-- Failed suite [Book My Show Suite] -->
